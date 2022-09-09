@@ -1,2 +1,4 @@
 # fupete.github.io
-Sandbox
+
+Just another sandbox repo to experiment.  
+Everything could be broken. Take your precautions.  
