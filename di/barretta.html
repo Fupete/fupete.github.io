@@ -442,7 +442,6 @@
                                       <li><a class="dropdown-item list-item" href="#"><span>Notizie</span></a></li>
                                       <li><a class="dropdown-item list-item" href="#"><span>Approfondimenti (medium)</span></a></li>
                                       <li><a class="dropdown-item list-item" href="#"><span>Video</span></a></li>
-
                                     </ul>
                                   </div>
                                 </div>
@@ -477,91 +476,132 @@
       <div class="row">
         <nav class="breadcrumb-container mt-4 mt-sm-5" aria-label="Percorso di navigazione">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item  d-none d-sm-block"><a href="#" class="fw-normal">Inizio</a><span class="separator fw-light">&gt;</span></li>
+            <li class="breadcrumb-item  d-none d-sm-block"><a href="." class="fw-normal">Inizio</a><span class="separator fw-light">&gt;</span></li>
             <li class="breadcrumb-item"><span class="separator fw-light d-sm-none">&lt;</span><a href="#" class="fw-normal">Modelli</a><span class="separator fw-light d-none d-sm-inline-block">&gt;</span></li>
             <!-- parent only on mobile breadcrumbs, or last two levels if possible -->
-            <li class="breadcrumb-item active d-none d-sm-block" aria-current="page">Questa è una sandbox</li>
+            <li class="breadcrumb-item active d-none d-sm-block" aria-current="page">Questa è una pagina di demo della barretta</li>
           </ol>
         </nav>
       </div>
     </div>
     <!-- content head section -->
-    <div class="section pt-0 pt-sm-4 px-0">
+    <div class="section pt-0 pt-sm-4 px-0 pb-0">
       <div class="section-content container">
         <div class="row">
           <div class="col-12 col-lg-6 col-xl-5 offset-lg-1">
-            <h1 class="display-1">Questa è una sandbox</h1>
-            <p class="lead">Provando la <strong>nuova navbar con megamenu</strong> per Designers Italia Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus feugiat ante sit amet semper</p>
-            <div class="py-4 d-grid gap-2 d-md-block">
-              <a class="btn btn-primary me-md-2" href="#" role="button">Vai al contenuto principale</a>
-              <a class="btn btn-secondary" href="./barretta.html" role="button">Scopri la barretta</a>
+            <h1>Questa è una pagina di demo della barretta</h1>
+            <p class="lead">Provando la <strong>nuova barretta per le pagine figlie, questa è una veriante tab, funziona solo su desktop per ora</strong> per Designers Italia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+              maximus feugiat ante sit amet semper</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- barretta informativa -->
+    <div class="section pt-2 px-0">
+      <div class="section-content container">
+        <div class="row">
+          <div class="mt-3">
+            <div class="">
+              <div class="row /*align-items-center*/">
+                <div class="col-3 col-xl-1">
+                  <div class="nav nav-tabs nav-tabs-vertical x-small text-uppercase" id="nav-vertical-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link justify-content-end active" id="nav-vertical-tab-ico-only1-tab" data-bs-toggle="tab" href="#nav-vertical-tab-ico-only1" role="tab" aria-controls="nav-vertical-tab-ico-only1" aria-selected="true"><span
+                        class="visually-hidden">Tab titolo 1</span> <svg class="icon">
+                        <use href="./bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
+                      </svg></a>
+                    <a class="nav-link justify-content-end" id="nav-vertical-tab-ico-only2-tab" data-bs-toggle="tab" href="#nav-vertical-tab-ico-only2" role="tab" aria-controls="nav-vertical-tab-ico-only2" aria-selected="false"><span
+                        class="visually-hidden">Tab titolo 2</span> <svg class="icon">
+                        <use href="./bootstrap-italia/dist/svg/sprites.svg#it-plus-circle "></use>
+                      </svg></a>
+                  </div>
+                </div>
+                <div class="col-9 col-xl-11 ps-3 white-bg" style="z-index:1">
+                  <div class="tab-content" id="nav-vertical-tab-ico-onlyContent">
+                    <div class="tab-pane py-3 fade show active" id="nav-vertical-tab-ico-only1" role="tabpanel" aria-labelledby="nav-vertical-tab-ico-only1-tab">
+                      <div class="small">
+                        <div class="row">
+                          <div class="col-12 col-sm-6 col-lg-3 col-xl-3 pb-4 pb-sm-0">
+                            <div class="">
+                              <div class="mb-2">
+                                <span class="x-small fw-bold text-uppercase">SEI</span>
+                              </div>
+                              <span class="text">
+                                Designer, Developer
+                              </span>
+                            </div>
+                          </div>
+                          <div class="col-12 col-sm-6 col-lg-3 col-xl-3 pb-4 pb-sm-0">
+                            <div class="">
+                              <div class="mb-2">
+                                <span class="x-small fw-bold text-uppercase">VUOI</span>
+                              </div>
+                              <span class="text">
+                                Organizzare, Comprendere, Progettare
+                              </span>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-5 col-xl-6">
+                            <div class="">
+                              <div class="mb-2">
+                                <span class="x-small fw-bold text-uppercase">TI INTERESSA</span>
+                              </div>
+                              <div>
+                                <a class="btn chip chip-simple chip-primary mb-2 mt-1 me-2 text-decoration-none">
+                                  <span class="chip-label">Accessibilità</span></a>
+                                </a>
+                                <a class="btn chip chip-simple chip-primary mb-2 mt-1 me-2 text-decoration-none">
+                                  <span class="chip-label">Ricerca utente</span>
+                                </a>
+                                <a class="btn chip chip-simple chip-primary mb-2 mt-1 me-2 text-decoration-none">
+                                  <span class="chip-label">Sviluppo front-end</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane py-3 fade" id="nav-vertical-tab-ico-only2" role="tabpanel" aria-labelledby="nav-vertical-tab-ico-only2-tab">
+                      <div class="small">
+                        <div class="row">
+                          <div class="col-12">
+                            <div class="">
+                              <div class="mb-2">
+                                <span class="x-small fw-bold text-uppercase">APPROFONDISCI</span>
+                              </div>
+                              <div class="row fw-semibold">
+                                <div class="col-12 col-lg-6 col-xl-3 ">
+                                  <div class="link-list-wrapper">
+                                    <ul class="link-list mb-0">
+                                      <li><a class="list-item large px-0" href="#"><span>Scheda di approfondimento</span></a></li>
+                                      <li><a class="list-item large px-0" href="#"><span>Scheda di approfondimento</span></a></li>
+                                      <li><a class="list-item large px-0" href="#"><span>Scheda di approfondimento</span></a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="col-12 col-lg-6 col-xl-3">
+                                  <div class="link-list-wrapper">
+                                    <ul class="link-list mb-0">
+                                      <li><a class="list-item large px-0" href="#"><span>Scheda di approfondimento</span></a></li>
+                                      <li><a class="list-item large px-0" href="#"><span>Scheda di approfondimento</span></a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- content sections -->
-    <section class="section section-muted px-0" aria-describedby="sectionContentTitle">
-      <div class="section-content container">
-        <div class="row">
-          <h2 class="title" id="sectionContentTitle">Questa è una sezione</h2>
-          <p class="lead">Provando la <strong>nuova navbar con megamenu</strong> per Designers Italia</p>
-          <p class="font-serif"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus feugiat ante sit amet semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec interdum
-            sapien at dolor gravida, et
-            finibus lorem vestibulum. Maecenas eleifend feugiat malesuada. Nullam congue orci felis, sed porttitor odio fermentum ut. Vivamus eu maximus mi. Fusce sagittis tristique neque nec cursus. Sed risus felis, dapibus vitae venenatis
-            vestibulum,
-            gravida lobortis nisi.</p>
-        </div>
-      </div>
-    </section>
-    <section class="section section-primary text-white px-0" aria-describedby="sectionContentTitle2">
-      <div class="section-content container">
-        <div class="row">
-          <h2 class="title" id="sectionContentTitle2">Un'altra sezione</h2>
-          <p class="lead">Provando la <strong>nuova navbar con megamenu</strong> per Designers Italia</p>
-          <p class="font-serif"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus feugiat ante sit amet semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec interdum
-            sapien at dolor gravida, et
-            finibus lorem vestibulum. Maecenas eleifend feugiat malesuada. Nullam congue orci felis, sed porttitor odio fermentum ut. Vivamus eu maximus mi. Fusce sagittis tristique neque nec cursus. Sed risus felis, dapibus vitae venenatis
-            vestibulum,
-            gravida lobortis nisi.</p>
-        </div>
-      </div>
-    </section>
-    <section class="section px-0" aria-describedby="sectionContentTitle3">
-      <div class="section-content container">
-        <div class="row">
-          <h2 class="title" id="sectionContentTitle3">Un'altra sezione</h2>
-          <p class="lead">Provando la <strong>nuova navbar con megamenu</strong> per Designers Italia</p>
-          <p class="font-serif"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus feugiat ante sit amet semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec interdum
-            sapien at dolor gravida, et
-            finibus lorem vestibulum. Maecenas eleifend feugiat malesuada. Nullam congue orci felis, sed porttitor odio fermentum ut. Vivamus eu maximus mi. Fusce sagittis tristique neque nec cursus. Sed risus felis, dapibus vitae venenatis
-            vestibulum,
-            gravida lobortis nisi.</p>
 
-          <p class="font-serif">Nunc in porta augue, ac efficitur purus. Maecenas maximus, sem sit amet tristique molestie, dolor risus tincidunt libero, eu elementum mi magna eu ante. Morbi iaculis mi dolor, sed pharetra risus euismod semper.
-            Nulla
-            volutpat, nisi ac condimentum ultricies, erat lorem maximus est, sit amet lacinia nunc turpis quis purus. Pellentesque arcu orci, vestibulum ac condimentum sit amet, condimentum id ligula. Duis tincidunt eros arcu, eget feugiat nulla
-            hendrerit ut. Fusce aliquet vehicula felis, vitae sollicitudin enim.</p>
-
-          <p class="font-serif"> In non lectus nunc. Curabitur nunc dui, tempor nec sodales at, mollis sit amet sem. Donec tincidunt libero fermentum tellus fermentum, sit amet finibus ligula luctus. Vivamus vulputate felis tortor, id volutpat
-            dolor malesuada vitae.
-            Curabitur faucibus neque sit amet risus mattis, pharetra ultricies neque tincidunt. Mauris in posuere erat. Etiam interdum vehicula erat ac ultricies. Nam sed efficitur arcu. Aenean aliquam bibendum arcu, et congue turpis laoreet ut.
-            Nullam tempus pellentesque mauris quis mattis. Nunc eget nisi sit amet tellus interdum tincidunt ut in erat. </p>
-        </div>
-      </div>
-    </section>
-    <section class="section section-neutral text-white px-0" aria-describedby="sectionContentTitle4">
-      <div class="section-content container">
-        <div class="row">
-          <h2 class="title" id="sectionContentTitle4">Un'altra sezione</h2>
-          <p class="lead">Provando la <strong>nuova navbar con megamenu</strong> per Designers Italia</p>
-          <p class="font-serif"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus feugiat ante sit amet semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec interdum
-            sapien at dolor gravida, et
-            finibus lorem vestibulum. Maecenas eleifend feugiat malesuada. Nullam congue orci felis, sed porttitor odio fermentum ut. Vivamus eu maximus mi. Fusce sagittis tristique neque nec cursus. Sed risus felis, dapibus vitae venenatis
-            vestibulum, gravida lobortis nisi.</p>
-        </div>
-      </div>
-    </section>
   </main>
 
 
