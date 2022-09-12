@@ -158,8 +158,6 @@
                           </div>
                         </div>
                       </li>
-                      </ul>
-                      <ul class="navbar-nav">
                       <!-- Fondamenti -->
                       <li class="nav-item dropdown megamenu">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="mainNavMegamenuC2">
@@ -219,9 +217,11 @@
                           </div>
                         </div>
                       </li>
+                    </ul>
+                    <ul class="navbar-nav">
                       <!-- Modelli -->
                       <li class="nav-item dropdown megamenu">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="mainNavMegamenuC2">
+                        <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="mainNavMegamenuC2">
                           <span>Modelli</span>
                           <svg class="icon icon-xs">
                             <use href="./bootstrap-italia/dist/svg/sprites.svg#it-expand"></use>
@@ -251,7 +251,7 @@
                                       </svg>
                                     </a>
                                   </li>
-                                  <li><a class="dropdown-item list-item" href="#"><span>Comuni</span></a></li>
+                                  <li><a class="dropdown-item list-item active" href="#" aria-current="page"><span>Comuni</span></a></li>
                                   <li><a class="dropdown-item list-item" href="#"><span>Scuole</span></a></li>
                                   <li><a class="dropdown-item list-item" href="#"><span>Fascicolo sanitario elettronico</span></a></li>
                                 </ul>
@@ -453,35 +453,75 @@
       </div>
     </div>
   </header>
-  <section class="section section-muted" aria-describedby="sectionContentTitle">
-    <div class="section-content container">
+  <main>
+    <div class="container">
       <div class="row">
-        <h1 class="title" id="sectionContentTitle">Sandbox</h1>
-        <p class="lead">Provando la <strong>nuova navbar con megamenu</strong> per Designers Italia.</p>
-        <p style="max-width:75ch"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus feugiat ante sit amet semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec interdum
-          sapien at dolor gravida, et
-          finibus lorem vestibulum. Maecenas eleifend feugiat malesuada. Nullam congue orci felis, sed porttitor odio fermentum ut. Vivamus eu maximus mi. Fusce sagittis tristique neque nec cursus. Sed risus felis, dapibus vitae venenatis
-          vestibulum,
-          gravida lobortis nisi.</p>
-
-        <p style="max-width:75ch">Nunc in porta augue, ac efficitur purus. Maecenas maximus, sem sit amet tristique molestie, dolor risus tincidunt libero, eu elementum mi magna eu ante. Morbi iaculis mi dolor, sed pharetra risus euismod semper.
-          Nulla
-          volutpat, nisi ac condimentum ultricies, erat lorem maximus est, sit amet lacinia nunc turpis quis purus. Pellentesque arcu orci, vestibulum ac condimentum sit amet, condimentum id ligula. Duis tincidunt eros arcu, eget feugiat nulla
-          hendrerit ut. Fusce aliquet vehicula felis, vitae sollicitudin enim.</p>
-
-        <p style="max-width:75ch"> In non lectus nunc. Curabitur nunc dui, tempor nec sodales at, mollis sit amet sem. Donec tincidunt libero fermentum tellus fermentum, sit amet finibus ligula luctus. Vivamus vulputate felis tortor, id volutpat
-          dolor malesuada vitae.
-          Curabitur faucibus neque sit amet risus mattis, pharetra ultricies neque tincidunt. Mauris in posuere erat. Etiam interdum vehicula erat ac ultricies. Nam sed efficitur arcu. Aenean aliquam bibendum arcu, et congue turpis laoreet ut.
-          Nullam
-          tempus pellentesque mauris quis mattis. Nunc eget nisi sit amet tellus interdum tincidunt ut in erat. </p>
-
+        <nav class="breadcrumb-container mt-5" aria-label="Percorso di navigazione">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#" class="fw-normal">Inizio</a><span class="separator fw-light">&gt;</span></li>
+            <li class="breadcrumb-item"><a href="#" class="fw-normal">Modelli</a><span class="separator fw-light">&gt;</span></li>
+            <li class="breadcrumb-item active" aria-current="page">Sandbox</li>
+          </ol>
+        </nav>
       </div>
     </div>
+    <div class="section pt-4 ps-0 pe-0">
+      <div class="section-content container">
+        <div class="row">
+          <div class="col-12 col-lg-5 offset-lg-1">
+            <h1 class="display-1">Questa è una sandbox</h1>
+            <p class="lead">Provando la <strong>nuova navbar con megamenu</strong> per Designers Italia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus feugiat ante sit amet semper.</p>
+            <div class="py-4 d-grid gap-2 d-md-block">
+              <a class="btn btn-primary me-md-2" href="#" role="button">Vai al contenuto principale</a>
+              <a class="btn btn-secondary" href="#" role="button">Secondario</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="section section-muted ps-0 pe-0" aria-describedby="sectionContentTitle">
+      <div class="section-content container">
+        <div class="row">
+          <h2 class="title" id="sectionContentTitle">Questa è una sezione</h2>
+          <p class="lead">Provando la <strong>nuova navbar con megamenu</strong> per Designers Italia.</p>
+          <p style="max-width:75ch"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus feugiat ante sit amet semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec interdum
+            sapien at dolor gravida, et
+            finibus lorem vestibulum. Maecenas eleifend feugiat malesuada. Nullam congue orci felis, sed porttitor odio fermentum ut. Vivamus eu maximus mi. Fusce sagittis tristique neque nec cursus. Sed risus felis, dapibus vitae venenatis
+            vestibulum,
+            gravida lobortis nisi.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section ps-0 pe-0" aria-describedby="sectionContentTitle2">
+      <div class="section-content container">
+        <div class="row">
+          <h2 class="title" id="sectionContentTitle2">Un'altra sezione</h2>
+          <p class="lead">Provando la <strong>nuova navbar con megamenu</strong> per Designers Italia.</p>
+          <p style="max-width:75ch"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus feugiat ante sit amet semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec interdum
+            sapien at dolor gravida, et
+            finibus lorem vestibulum. Maecenas eleifend feugiat malesuada. Nullam congue orci felis, sed porttitor odio fermentum ut. Vivamus eu maximus mi. Fusce sagittis tristique neque nec cursus. Sed risus felis, dapibus vitae venenatis
+            vestibulum,
+            gravida lobortis nisi.</p>
+
+          <p style="max-width:75ch">Nunc in porta augue, ac efficitur purus. Maecenas maximus, sem sit amet tristique molestie, dolor risus tincidunt libero, eu elementum mi magna eu ante. Morbi iaculis mi dolor, sed pharetra risus euismod semper.
+            Nulla
+            volutpat, nisi ac condimentum ultricies, erat lorem maximus est, sit amet lacinia nunc turpis quis purus. Pellentesque arcu orci, vestibulum ac condimentum sit amet, condimentum id ligula. Duis tincidunt eros arcu, eget feugiat nulla
+            hendrerit ut. Fusce aliquet vehicula felis, vitae sollicitudin enim.</p>
+
+          <p style="max-width:75ch"> In non lectus nunc. Curabitur nunc dui, tempor nec sodales at, mollis sit amet sem. Donec tincidunt libero fermentum tellus fermentum, sit amet finibus ligula luctus. Vivamus vulputate felis tortor, id volutpat
+            dolor malesuada vitae.
+            Curabitur faucibus neque sit amet risus mattis, pharetra ultricies neque tincidunt. Mauris in posuere erat. Etiam interdum vehicula erat ac ultricies. Nam sed efficitur arcu. Aenean aliquam bibendum arcu, et congue turpis laoreet ut.
+            Nullam
+            tempus pellentesque mauris quis mattis. Nunc eget nisi sit amet tellus interdum tincidunt ut in erat. </p>
+        </div>
+      </div>
+    </section>
+  </main>
 
 
 
-    <!-- JS -->
-    <script src="./bootstrap-italia/js/bootstrap-italia.bundle.min.js"></script>
+  <!-- JS -->
+  <script src="./bootstrap-italia/js/bootstrap-italia.bundle.min.js"></script>
 </body>
 
 </html>
