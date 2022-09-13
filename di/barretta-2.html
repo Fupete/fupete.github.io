@@ -101,7 +101,7 @@
           </div>
         </div>
       </div>
-      <div class="it-header-navbar-wrapper theme-dark-desk" id="#header-nav-wrapper">
+      <div class="it-header-navbar-wrapper theme-dark-desk" id="header-nav-wrapper">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -442,7 +442,6 @@
                                       <li><a class="dropdown-item list-item" href="#"><span>Notizie</span></a></li>
                                       <li><a class="dropdown-item list-item" href="#"><span>Approfondimenti (medium)</span></a></li>
                                       <li><a class="dropdown-item list-item" href="#"><span>Video</span></a></li>
-
                                     </ul>
                                   </div>
                                 </div>
@@ -481,36 +480,164 @@
               <a class="fw-normal">Inizio</a>
               <span class="separator fw-light">&gt;</span>
             </li>
+            <li class="breadcrumb-item d-none d-md-block">
+              <span class="separator fw-light d-md-none">&lt;</span>
+              <a href="#" class="fw-normal">Modelli</a>
+              <span class="separator fw-light d-none d-md-inline-block">&gt;</span>
+            </li>
             <!-- parent only on mobile breadcrumbs, or last two levels if possible -->
+            <li class="breadcrumb-item d-none d-md-block">
+              <span class="separator fw-light d-md-none">&lt;</span>
+              <a href="." class="fw-normal">Questa è una sandbox</a>
+              <span class="separator fw-light d-none d-md-inline-block">&gt;</span>
+            </li>
             <li class="breadcrumb-item">
               <span class="separator fw-light d-md-none">&lt;</span>
-              <a href="." class="fw-normal">Modelli</a>
+              <a href="./barretta.html" class="fw-normal">Demo della barra canguro</a>
               <span class="separator fw-light d-none d-md-inline-block">&gt;</span>
             </li>
             <li class="breadcrumb-item active d-none d-md-block" aria-current="page">
-              Questa è una sandbox
+              Demo della barretta alternativa
             </li>
           </ol>
         </nav>
       </div>
     </div>
     <!-- content head section -->
-    <div class="section pt-0 pt-sm-2 pt-lg-2 pt-xl-3 px-0">
+    <div class="section pt-0 pt-sm-2 pt-lg-2 pt-xl-3 px-0 pb-2">
       <div class="section-content container">
         <div class="row">
           <div class="col-12 col-lg-7 col-xl-6 offset-xl-1">
-            <h1 class="display-1">Questa è una sandbox</h1>
-            <p class="lead">Provando la <strong>nuova navbar con megamenu</strong> per Designers Italia Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus feugiat ante sit amet semper</p>
-            <div class="py-4 d-grid gap-2 d-md-block">
-              <a class="btn btn-primary me-md-2" href="#" role="button">Vai al contenuto principale</a>
-              <a class="btn btn-secondary" href="./barretta.html" role="button">Scopri la barretta</a>
+            <h1>Demo della barretta alternativa</h1>
+            <p class="lead">Provando la <strong>nuova barra canguro subito sotto le testate, serve da orientamento e sacca strumenti</strong> relativi alla pagina che stai guardando</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- barretta alternativa -->
+    <div class="section pt-4 pb-5 mb-2 px-0 border-light border-bottom">
+      <div class="section-content container">
+        <!-- <button class="btn btn-outline-secondary btn-xs mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#dati-strutturati" aria-expanded="false" aria-controls="collapseExample">
+          Questo contenuto fa per te?
+        </button> -->
+        <div class="row">
+          <div class="col-12 col-xl-10 offset-xl-1 collapse show" id="dati-strutturati">
+            <ul class="nav nav-tabs nav-tabs-icon-text x-small text-uppercase" id="myTab3" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link" id="tab0c-tab" data-bs-toggle="tab" href="#tab0b" role="tab" aria-controls="tab0b" aria-selected="true">
+                  X
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="tab1c-tab" data-bs-toggle="tab" href="#tab1b" role="tab" aria-controls="tab1b" aria-selected="false">
+                  <svg class="icon icon-sm">
+                    <use href="./bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
+                  </svg>
+                  <span>Fa per te se</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="tab2b-tab" data-bs-toggle="tab" href="#tab2b" role="tab" aria-controls="tab2b" aria-selected="false">
+                  <svg class="icon icon-sm">
+                    <use href="./bootstrap-italia/dist/svg/sprites.svg#it-plus-circle"></use>
+                  </svg>
+                  <span>Ti serve altro</span>
+                </a>
+              </li>
+              <div class="nav-item-filler"></div>
+            </ul>
+            <div class="tab-content" id="myTab3Content">
+              <div class="tab-pane p-4 fade show active" id="tab0b" role="tabpanel" aria-labelledby="tab0c-tab">
+              </div>
+              <div class="tab-pane p-4 fade" id="tab1b" role="tabpanel" aria-labelledby="tab1c-tab">
+                <div class="small">
+                  <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 pb-4 pb-sm-0">
+                      <div class="">
+                        <div class="mb-2">
+                          <span class="x-small fw-bold text-uppercase">SEI</span>
+                        </div>
+                        <span class="text">
+                          Designer, Developer
+                        </span>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 pb-4 pb-sm-0">
+                      <div class="">
+                        <div class="mb-2">
+                          <span class="x-small fw-bold text-uppercase">VUOI</span>
+                        </div>
+                        <span class="text">
+                          Organizzare, Comprendere, Progettare
+                        </span>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-xl-6 pt-sm-3 pt-lg-0">
+                      <div class="">
+                        <div class="mb-2">
+                          <span class="x-small fw-bold text-uppercase">TI INTERESSA</span>
+                        </div>
+                        <div>
+                          <a class="btn chip chip-simple chip-primary mb-2 mt-1 me-2 text-decoration-none">
+                            <span class="chip-label">Accessibilità</span></a>
+                          </a>
+                          <a class="btn chip chip-simple chip-primary mb-2 mt-1 me-2 text-decoration-none">
+                            <span class="chip-label">Ricerca utente</span>
+                          </a>
+                          <a class="btn chip chip-simple chip-primary mb-2 mt-1 me-2 text-decoration-none">
+                            <span class="chip-label">Sviluppo front-end</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane p-4 fade" id="tab2b" role="tabpanel" aria-labelledby="tab2b-tab">
+                <div class="row small">
+                  <div class="col-12 col-md-12 col-lg-8 col-xl-6">
+                    <div class="row">
+                      <div class="mb-2">
+                        <span class="x-small fw-bold text-uppercase">APPROFONDISCI</span>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 col-md-6">
+                          <div class="link-list-wrapper">
+                            <ul class="link-list mb-0">
+                              <li><a class="list-item large px-0 fw-semibold" href="#"><span>Scheda di approfondimento</span></a></li>
+                              <li><a class="list-item large px-0 fw-semibold" href="#"><span>Scheda di approfondimento</span></a></li>
+                              <li><a class="list-item large px-0 fw-semibold" href="#"><span>Scheda di approfondimento</span></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                          <div class="link-list-wrapper">
+                            <ul class="link-list mb-0">
+                              <li><a class="list-item large px-0 fw-semibold" href="#"><span>Scheda di approfondimento</span></a></li>
+                              <li><a class="list-item large px-0 fw-semibold" href="#"><span>Scheda di approfondimento</span></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-4 col-xl-6 mt-4 mt-lg-0">
+                    <div class="row">
+                      <div class="mb-2">
+                        <span class="x-small fw-bold text-uppercase">CERCA</span>
+                      </div>
+                      <p style="max-width:45ch!important">Qui andrà azione per cercare ulteriormente... e filtrare i contenuti... un accesso al cerca... </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- content sections -->
-    <section class="section section-muted px-0" aria-describedby="sectionContentTitle">
+    <!-- content sections-->
+    <section class="section px-0" aria-describedby="sectionContentTitle">
       <div class="section-content container">
         <div class="row">
           <h2 class="title" id="sectionContentTitle">Questa è una sezione</h2>
@@ -520,13 +647,23 @@
             finibus lorem vestibulum. Maecenas eleifend feugiat malesuada. Nullam congue orci felis, sed porttitor odio fermentum ut. Vivamus eu maximus mi. Fusce sagittis tristique neque nec cursus. Sed risus felis, dapibus vitae venenatis
             vestibulum,
             gravida lobortis nisi.</p>
+          <p class="font-serif"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus feugiat ante sit amet semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec interdum
+            sapien at dolor gravida, et
+            finibus lorem vestibulum. Maecenas eleifend feugiat malesuada. Nullam congue orci felis, sed porttitor odio fermentum ut. Vivamus eu maximus mi. Fusce sagittis tristique neque nec cursus. Sed risus felis, dapibus vitae venenatis
+            vestibulum,
+            gravida lobortis nisi.</p>
+          <p class="font-serif"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus feugiat ante sit amet semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec interdum
+            sapien at dolor gravida, et
+            finibus lorem vestibulum. Maecenas eleifend feugiat malesuada. Nullam congue orci felis, sed porttitor odio fermentum ut. Vivamus eu maximus mi. Fusce sagittis tristique neque nec cursus. Sed risus felis, dapibus vitae venenatis
+            vestibulum,
+            gravida lobortis nisi.</p>
         </div>
       </div>
     </section>
-    <section class="section section-primary text-white px-0" aria-describedby="sectionContentTitle2">
+    <section class="section section-muted px-0" aria-describedby="sectionContentTitle2">
       <div class="section-content container">
         <div class="row">
-          <h2 class="title" id="sectionContentTitle2">Un'altra sezione</h2>
+          <h2 class="title" id="sectionContentTitle2">Questa è una sezione diversa</h2>
           <p class="lead">Provando la <strong>nuova navbar con megamenu</strong> per Designers Italia</p>
           <p class="font-serif"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus feugiat ante sit amet semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec interdum
             sapien at dolor gravida, et
@@ -536,41 +673,7 @@
         </div>
       </div>
     </section>
-    <section class="section px-0" aria-describedby="sectionContentTitle3">
-      <div class="section-content container">
-        <div class="row">
-          <h2 class="title" id="sectionContentTitle3">Un'altra sezione</h2>
-          <p class="lead">Provando la <strong>nuova navbar con megamenu</strong> per Designers Italia</p>
-          <p class="font-serif"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus feugiat ante sit amet semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec interdum
-            sapien at dolor gravida, et
-            finibus lorem vestibulum. Maecenas eleifend feugiat malesuada. Nullam congue orci felis, sed porttitor odio fermentum ut. Vivamus eu maximus mi. Fusce sagittis tristique neque nec cursus. Sed risus felis, dapibus vitae venenatis
-            vestibulum,
-            gravida lobortis nisi.</p>
 
-          <p class="font-serif">Nunc in porta augue, ac efficitur purus. Maecenas maximus, sem sit amet tristique molestie, dolor risus tincidunt libero, eu elementum mi magna eu ante. Morbi iaculis mi dolor, sed pharetra risus euismod semper.
-            Nulla
-            volutpat, nisi ac condimentum ultricies, erat lorem maximus est, sit amet lacinia nunc turpis quis purus. Pellentesque arcu orci, vestibulum ac condimentum sit amet, condimentum id ligula. Duis tincidunt eros arcu, eget feugiat nulla
-            hendrerit ut. Fusce aliquet vehicula felis, vitae sollicitudin enim.</p>
-
-          <p class="font-serif"> In non lectus nunc. Curabitur nunc dui, tempor nec sodales at, mollis sit amet sem. Donec tincidunt libero fermentum tellus fermentum, sit amet finibus ligula luctus. Vivamus vulputate felis tortor, id volutpat
-            dolor malesuada vitae.
-            Curabitur faucibus neque sit amet risus mattis, pharetra ultricies neque tincidunt. Mauris in posuere erat. Etiam interdum vehicula erat ac ultricies. Nam sed efficitur arcu. Aenean aliquam bibendum arcu, et congue turpis laoreet ut.
-            Nullam tempus pellentesque mauris quis mattis. Nunc eget nisi sit amet tellus interdum tincidunt ut in erat. </p>
-        </div>
-      </div>
-    </section>
-    <section class="section section-neutral text-white px-0" aria-describedby="sectionContentTitle4">
-      <div class="section-content container">
-        <div class="row">
-          <h2 class="title" id="sectionContentTitle4">Un'altra sezione</h2>
-          <p class="lead">Provando la <strong>nuova navbar con megamenu</strong> per Designers Italia</p>
-          <p class="font-serif"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus feugiat ante sit amet semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec interdum
-            sapien at dolor gravida, et
-            finibus lorem vestibulum. Maecenas eleifend feugiat malesuada. Nullam congue orci felis, sed porttitor odio fermentum ut. Vivamus eu maximus mi. Fusce sagittis tristique neque nec cursus. Sed risus felis, dapibus vitae venenatis
-            vestibulum, gravida lobortis nisi.</p>
-        </div>
-      </div>
-    </section>
   </main>
 
 
