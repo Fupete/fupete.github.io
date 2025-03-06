@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /designers.italia.it/
+Disallow: /bootstra-italia/
